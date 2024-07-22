@@ -1,0 +1,36 @@
+[user]
+	name = Jefte Keller
+	email = jeftekeller.dev@gmail.com
+[core]
+	autocrlf = false
+	editor = vim
+[alias]
+	cl = clone
+	co = checkout
+	cm = commit -m
+	st = status
+	br = branch -vv
+	po = pull origin
+	pso = push origin
+	rv = remote -v
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+	type = cat-file -t
+	dump = cat-file -p
+[init]
+	defaultBranch = main
+[pull]
+	rebase = true
+[diff]
+    tool = default-difftool
+[difftool "default-difftool"]
+    cmd = code --wait --diff $LOCAL $REMOTE
+[color "status"]
+  added = green bold
+  changed = red bold strike
+  untracked = cyan
+  branch = yellow black bold ul
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true 
