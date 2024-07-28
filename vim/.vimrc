@@ -59,6 +59,7 @@ let g:mutton_min_center_width = 88
 
 
 " Shortcuts
+nmap <F4> :NERDTree<CR>
 nmap <F8> :TagbarToggle<CR>
 
 
