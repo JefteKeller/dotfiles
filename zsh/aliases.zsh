@@ -17,6 +17,10 @@ alias pacman-check-orphan="pacman -Qqd | pacman -Rsu --print -"
 alias audio-list-sinks="pactl list sinks"
 alias audio-list-inputs="pactl list sink-inputs"
 
+alias audio-list-mpris-players="echo '$(dbus-send --session --dest=org.freedesktop.DBus \
+        --type=method_call --print-reply /org/freedesktop/DBus \
+        org.freedesktop.DBus.ListNames | grep org.mpris.MediaPlayer2)'"
+
 
 # Display
 alias kwin-clean-shortcuts="qdbus6 org.kde.kglobalaccel /component/kwin org.kde.kglobalaccel.Component.cleanUp"
