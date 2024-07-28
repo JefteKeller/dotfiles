@@ -2,7 +2,7 @@
 # System configuration
 #
 
-export PULSE_LATENCY_MSEC=60
+export PATH="$PATH:$HOME/.local/bin"
 
 
 #
@@ -29,27 +29,20 @@ export PIPENV_VENV_IN_PROJECT=true
 
 
 #
-# Add to Path
+# Tools
 #
 
-export PATH="$PATH:$HOME/.local/bin"
-
-# export PATH="$PATH:`yarn global bin`"
+export PATH="$PATH:`yarn global bin`"
 
 export PATH="$HOME/.console-ninja/.bin:$PATH"
 
 export PATH="$HOME/.poetry/bin:$PATH"
 
-export PATH="$PATH:/home/keller/.spicetify"
+export PATH="$PATH:$HOME/.spicetify"
 
-
-#
 # SonarQube apps
-#
-
-# export PATH="$PATH:/home/keller/sonarqube/sonarqube-9.6.0.59041/bin/linux-x86-64"
-
-# export PATH="$PATH:/home/keller/sonarqube/sonar-scanner-4.7.0.2747-linux/bin"
+# export PATH="$PATH:$HOME/sonarqube/sonarqube-9.6.0.59041/bin/linux-x86-64"
+# export PATH="$PATH:$HOME/sonarqube/sonar-scanner-4.7.0.2747-linux/bin"
 
 
 #
