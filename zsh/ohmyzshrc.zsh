@@ -8,7 +8,7 @@
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 #
 
-ZSH_THEME="random"
+# ZSH_THEME="random"
 
 # ZSH_THEME="robbyrussell"
 # ZSH_THEME="agnoster"
@@ -17,7 +17,7 @@ ZSH_THEME="random"
 
 # ZSH_THEME="fino"
 
-# ZSH_THEME="powerlevel10k/powerlevel10k"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 # ZSH_THEME="spaceship"
 
 # ZSH_THEME="kiwi"
@@ -34,49 +34,46 @@ ZSH_THEME="random"
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
 # If set to an empty array, this variable will have no effect.
-# ZSH_THEME_RANDOM_CANDIDATES=(
-#                             "lambda-mod"
-#                             "dracula"
-#                             "powerlevel10k/powerlevel10k"
-#                             "spaceship"
-#                             "robbyrussell"
-#                             "agnoster"
-#                             "fino"
-#                             "kiwi"
-#                             "duellj"
-#                             "rkj"
-#                             "xiong-chiamiov"
-#                             "xiong-chiamiov-plus"
-#                             "dst"
-#                             "mira"
-#                             "jnrowe"
-#                             "gallois"
-#                             "avit"
-#                             "jonathan"
-#                             "strug"
-#                             "trapd00r"
-#                             "sonicradish"
-#                             "suvash"
-#                             "humza"
-#                             "cypher"
-#                             "geoffgarside"
-#                             "philips"
-#                             "peepcode"
-#                             "candy-kingdom"
-#                             "junkfood"
-#                             "adben"
-#                             "sporty_256"
-#                             "funky"
-#                             "nanotech"
-#                             "superjarin"
-#                             "darkblood"
-#                             "dogenpunk"
-#                             "af-magic"
-#                             "steeef"
-#                             ""
-#                             ""
-# )
-
+ZSH_THEME_RANDOM_CANDIDATES=(
+        "lambda-mod"
+        "dracula"
+        "powerlevel10k/powerlevel10k"
+        "spaceship"
+        "robbyrussell"
+        "agnoster"
+        "fino"
+        "kiwi"
+        "duellj"
+        "rkj"
+        "xiong-chiamiov"
+        "xiong-chiamiov-plus"
+        "dst"
+        "mira"
+        "jnrowe"
+        "gallois"
+        "avit"
+        "jonathan"
+        "strug"
+        "trapd00r"
+        "sonicradish"
+        "suvash"
+        "humza"
+        "cypher"
+        "geoffgarside"
+        "philips"
+        "peepcode"
+        "candy-kingdom"
+        "junkfood"
+        "adben"
+        "sporty_256"
+        "funky"
+        "nanotech"
+        "superjarin"
+        "darkblood"
+        "dogenpunk"
+        "af-magic"
+        "steeef"
+)
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -125,7 +122,6 @@ COMPLETION_WAITING_DOTS="true"
 # HIST_STAMPS="mm/dd/yyyy"
 HIST_STAMPS="dd.mm.yyyy"
 
-
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
@@ -154,10 +150,9 @@ plugins=(
 )
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/keller/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 source $ZSH/oh-my-zsh.sh
-
 
 #
 # End of ohmyzshrc.zsh
