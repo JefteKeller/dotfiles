@@ -6,6 +6,7 @@
 - ASDF
 - Terminal `dir_colors`
 - Git
+- SSH
 - p10k
 - Vim
 - Zsh
