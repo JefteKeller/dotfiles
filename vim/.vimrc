@@ -8,7 +8,7 @@ call plug#begin()
 Plug 'tpope/vim-sensible'
 Plug 'sheerun/vim-polyglot'
 
-Plug 'ludovicchabant/vim-gutentags'
+"Plug 'ludovicchabant/vim-gutentags'
 Plug 'preservim/tagbar'
 
 Plug 'preservim/nerdtree'
