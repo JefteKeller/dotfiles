@@ -4,10 +4,7 @@ if [ -z "$DOTFILES" ]; then
   export DOTFILES="$HOME/.dotfiles"
 fi
 
-echo "Installing all .dotfiles..."
-
-# Install Arch Linux
-source "$DOTFILES/install/install-archlinux.sh"
+echo "Installing Dotfiles..."
 
 # Install ASDF
 source "$DOTFILES/install/install-asdf.sh"
@@ -30,4 +27,4 @@ source "$DOTFILES/install/install-vim.sh"
 # Install Zsh
 source "$DOTFILES/install/install-zsh.sh"
 
-echo "All .dotfiles has been successfully installed."
+echo "Dotfiles has been successfully installed."

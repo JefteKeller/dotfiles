@@ -38,11 +38,13 @@ git clone git@github.com:JefteKeller/dotfiles.git $DOTFILES
 You can install all configs at once with the script:
 
 ``` sh
-sudo "$DOTFILES/install-all-configs.sh"
+"$DOTFILES/install-all-configs.sh"
 ```
 
-Or you can install the configs individually with the scripts in the `$DOTFILES/install/` folder.
+> The script to install all configs does not include *arch_linux* configs.
+
+You can install the configs individually with the scripts in the `$DOTFILES/install/` folder.
 
 >
-> If you install the scripts individually, only the *arch linux* script requires elevated permissions.
+> The script for *arch_linux* script requires elevated permissions.
 >
