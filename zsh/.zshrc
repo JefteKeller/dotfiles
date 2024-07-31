@@ -36,9 +36,6 @@ source ~/.asdf/asdf.sh
 # Powerlevel10k - To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [ -f ~/.p10k.zsh ] && source ~/.p10k.zsh
 
-# Vulkan SDK
-[ -f ~/.local/share/vulkansdk/1.3.268.0/setup-env.sh ] && source ~/.local/share/vulkansdk/1.3.268.0/setup-env.sh
-
 #
 # End of .zshrc
 #
