@@ -8,6 +8,8 @@
 # Editors
 alias kt="kate"
 
+# BTRFS
+alias btrfs-check-snapshot-size="sudo btrfs filesystem du -s --human-readable /.snapshots/*/snapshot"
 
 # Pacman
 alias pacman-check-orphan="pacman -Qqd | pacman -Rsu --print -"
