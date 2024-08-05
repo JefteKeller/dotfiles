@@ -7,6 +7,7 @@
 
 # Editors
 alias kt="kate"
+alias kw="kwrite"
 
 # BTRFS
 alias btrfs-check-snapshot-size="sudo btrfs filesystem du -s --human-readable /.snapshots/*/snapshot"
