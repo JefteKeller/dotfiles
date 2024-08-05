@@ -14,6 +14,7 @@ export PATH="/usr/lib/ccache/bin:$PATH"
 # Number of CPU cores used when compiling
 export LITFLAGS="-j 12"
 
+
 # Clean chroot location
 export CHROOT="$HOME/chroot"
 
@@ -36,6 +37,7 @@ export PATH="$HOME/.console-ninja/.bin:$PATH"
 export PATH="$HOME/.poetry/bin:$PATH"
 
 export PATH="$PATH:$HOME/.spicetify"
+
 
 # SonarQube apps
 # export PATH="$PATH:$HOME/sonarqube/sonarqube-9.6.0.59041/bin/linux-x86-64"

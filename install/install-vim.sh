@@ -6,6 +6,8 @@ fi
 
 echo "Installing Vim Config..."
 
+
 ln -sf "$DOTFILES/vim/.vimrc" "$HOME/.vimrc"
+
 
 echo "Vim Config installed!"

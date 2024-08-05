@@ -6,6 +6,8 @@ fi
 
 echo "Installing ASDF Config..."
 
+
 ln -sf "$DOTFILES/asdf/.asdfrc" "$HOME/.asdfrc"
+
 
 echo "ASDF Config installed!"

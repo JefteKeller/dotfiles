@@ -6,6 +6,7 @@ fi
 
 echo "Installing Dotfiles to the directory: $DOTFILES"
 
+
 # Install ASDF
 source "$DOTFILES/install/install-asdf.sh"
 
@@ -26,5 +27,6 @@ source "$DOTFILES/install/install-vim.sh"
 
 # Install Zsh
 source "$DOTFILES/install/install-zsh.sh"
+
 
 echo "Dotfiles has been successfully installed to: $DOTFILES"

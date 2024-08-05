@@ -6,6 +6,8 @@ fi
 
 echo "Installing Zsh Config..."
 
+
 ln -sf "$DOTFILES/zsh/.zshrc" "$HOME/.zshrc"
+
 
 echo "Zsh Config installed!"
