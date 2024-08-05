@@ -8,6 +8,7 @@
 - Git
 - SSH
 - p10k
+- Spaceship
 - Vim
 - Zsh
 
