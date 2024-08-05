@@ -8,6 +8,8 @@ echo "Installing Arch Linux Config..."
 
 ln -sf "$DOTFILES/arch_linux/.XCompose" "$HOME/.XCompose"
 
+sudo cp -iv "$DOTFILES/arch_linux/btrfs-assistant.conf" "/etc/"
+
 sudo cp -iv "$DOTFILES/arch_linux/makepkg.conf" "/etc/"
 
 sudo cp -iv "$DOTFILES/arch_linux/pacman.conf" "/etc/"
