@@ -24,9 +24,6 @@ export CHROOT="$HOME/chroot"
 
 export PIPENV_VENV_IN_PROJECT=true
 
-# MangoHud FPS Overlay
-# export MANGOHUD=1
-
 
 #
 # Tools
