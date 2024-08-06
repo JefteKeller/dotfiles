@@ -19,6 +19,9 @@ source "$DOTFILES/install/install-git.sh"
 # Install p10k
 source "$DOTFILES/install/install-p10k.sh"
 
+# Install ShellCheck
+source "$DOTFILES/install/install-shellcheck.sh"
+
 # Install spaceship
 source "$DOTFILES/install/install-spaceship.sh"
 
