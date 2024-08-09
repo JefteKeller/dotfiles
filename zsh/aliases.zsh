@@ -15,6 +15,7 @@ alias btrfs-check-snapshot-size="sudo btrfs filesystem du -s --human-readable /.
 
 
 # Pacman
+alias pacman-clean-cache="paccache -rvvvk0"
 alias pacman-check-orphan="pacman -Qqd | pacman -Rsu --print -"
 
 
