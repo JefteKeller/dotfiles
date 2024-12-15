@@ -32,7 +32,7 @@ export DOTFILES="$HOME/.config/dotfiles"
 Clone the repo to the `$DOTFILES` folder:
 
 ``` sh
-git clone git@github.com:JefteKeller/dotfiles.git $DOTFILES
+git clone git@github.com:JefteKeller/.dotfiles.git $DOTFILES
 ```
 
 ## Installation

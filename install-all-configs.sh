@@ -4,7 +4,7 @@ if [ -z "$DOTFILES" ]; then
   export DOTFILES="$HOME/.dotfiles"
 fi
 
-echo "Installing Dotfiles to the directory: $DOTFILES"
+echo "Installing Dotfiles from directory: $DOTFILES"
 
 
 # Install ASDF
@@ -35,4 +35,4 @@ source "$DOTFILES/install/install-vim.sh"
 source "$DOTFILES/install/install-zsh.sh"
 
 
-echo "Dotfiles has been successfully installed to: $DOTFILES"
+echo "Dotfiles successfully installed from: $DOTFILES"
