@@ -2,8 +2,10 @@
 	name = Jefte Keller
 	email = jeftekeller.dev@gmail.com
 [core]
-	autocrlf = false
+	eol = lf
 	editor = vim
+	autocrlf = input
+	ignorecase = true
 [alias]
 	cl = clone
 	co = checkout
@@ -33,4 +35,4 @@
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
-	required = true 
+	required = true
