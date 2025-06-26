@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 if [ -z "$DOTFILES" ]; then
-  export DOTFILES="$HOME/.dotfiles"
+  export DOTFILES="$HOME/.config/dotfiles"
 fi
 
 echo "Installing ASDF Config..."

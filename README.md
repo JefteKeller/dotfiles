@@ -21,7 +21,7 @@ Make sure to make a backup if needed **before running the scripts**.
 
 ## Setup
 
-By default the script will use `$HOME/.dotfiles` as the base config folder, you can use a different location by setting the variable `DOTFILES` **before running the script**.
+By default the script will use `$HOME/.config/dotfiles` as the base config folder, you can use a different location by setting the variable `DOTFILES` **before running the script**.
 
 **e.g:**
 
@@ -32,7 +32,7 @@ export DOTFILES="$HOME/.config/dotfiles"
 Clone the repo to the `$DOTFILES` folder:
 
 ``` sh
-git clone git@github.com:JefteKeller/.dotfiles.git $DOTFILES
+git clone git@github.com:JefteKeller/dotfiles.git $DOTFILES
 ```
 
 ## Installation

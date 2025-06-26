@@ -8,7 +8,7 @@ zstyle ':completion:*' menu select=long
 zstyle ':completion:*' select-prompt %SScrolling active: current selection at %p%s
 zstyle ':completion:*' use-compctl true
 zstyle ':completion:*' verbose true
-zstyle :compinstall filename '/home/keller/.dotfiles/zsh/completions.zsh'
+zstyle :compinstall filename '~/.config/dotfiles/zsh/completions.zsh'
 
 autoload -Uz compinit
 compinit

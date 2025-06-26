@@ -2,17 +2,17 @@
 # Zsh
 #
 
-source ~/.dotfiles/zsh/ohmyzshrc.zsh
+source ~/.config/dotfiles/zsh/ohmyzshrc.zsh
 
-source ~/.dotfiles/zsh/completions.zsh
+source ~/.config/dotfiles/zsh/completions.zsh
 
-source ~/.dotfiles/zsh/aliases.zsh
+source ~/.config/dotfiles/zsh/aliases.zsh
 
-source ~/.dotfiles/zsh/exports.zsh
+source ~/.config/dotfiles/zsh/exports.zsh
 
-source ~/.dotfiles/zsh/sshrc.zsh
+source ~/.config/dotfiles/zsh/sshrc.zsh
 
-source ~/.dotfiles/zsh/zinitrc.zsh
+source ~/.config/dotfiles/zsh/zinitrc.zsh
 
 
 # History file for zsh
