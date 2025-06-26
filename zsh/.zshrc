@@ -31,6 +31,7 @@ eval $(dircolors ~/.dir_colors/dircolors)
 
 
 # Fuzzy Finder
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 source <(fzf --zsh)
 
 
