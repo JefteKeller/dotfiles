@@ -89,10 +89,6 @@ alias debug-nginx='sudo nginx -t'
 alias status-nginx='sudo service nginx status'
 
 
-# Yarn commands
-alias cra="create react-app"
-
-
 # Python commands
 alias py="python"
 alias pym="python -m"

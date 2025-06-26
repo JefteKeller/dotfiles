@@ -30,10 +30,6 @@ setopt SHARE_HISTORY
 eval $(dircolors ~/.dir_colors/dircolors)
 
 
-# ASDF - Version Manager
-source ~/.asdf/asdf.sh
-
-
 # Fuzzy Finder
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 

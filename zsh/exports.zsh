@@ -30,12 +30,6 @@ export PIPENV_VENV_IN_PROJECT=true
 # Tools
 #
 
-export PATH="$PATH:`yarn global bin`"
-
-export PATH="$HOME/.console-ninja/.bin:$PATH"
-
-export PATH="$HOME/.poetry/bin:$PATH"
-
 export PATH="$PATH:$HOME/.spicetify"
 
 
