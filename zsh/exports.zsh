@@ -30,6 +30,8 @@ export PIPENV_VENV_IN_PROJECT=true
 # Tools
 #
 
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
+
 export PATH="$PATH:$HOME/.spicetify"
 
 
